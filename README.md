@@ -1,4 +1,6 @@
-# second-test-digisystem
+# API DIGISYSTEM - second-test-digisystem
+
+Como acessar os metodos criados (Postman)
 
 1 - Listar todos os registros, no postman coloque GET: localhost:8080//digisystem/pessoa
 
