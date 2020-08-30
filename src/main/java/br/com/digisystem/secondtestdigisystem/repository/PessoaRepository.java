@@ -15,7 +15,7 @@ import java.util.List;
 @Repository
 public interface PessoaRepository extends CrudRepository<Pessoa, Long> {
 
-    List<Pessoa> findByNome(String nome);
+    Pessoa findByNome(String name);
 
-    List<Pessoa> findBySalario(String salario);
+    List<Pessoa> findBySalario(String salary);
 }

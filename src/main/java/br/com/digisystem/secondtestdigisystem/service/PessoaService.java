@@ -49,7 +49,7 @@ public class PessoaService {
     /**
      * 3 - PESSOA PELO NOME
      **/
-    public List<Pessoa> findByName(String name) throws Exception {
+    public Pessoa findByName(String name) throws Exception {
         logger.info("#### Busca de pessoa por nome: {}", name);
         return Optional
                 .of(this.pessoaRepo.findByNome(name))

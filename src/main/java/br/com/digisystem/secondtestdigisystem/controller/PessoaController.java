@@ -40,7 +40,7 @@ public class PessoaController implements Serializable {
     }
 
     @GetMapping(value = "${controller.urn.findByName}")
-    public List<Pessoa> findByName(@PathVariable("name") String name) throws Exception {
+    public Pessoa findByName(@PathVariable("name") String name) throws Exception {
         return this.pessoaService.findByName(name);
     }
 
